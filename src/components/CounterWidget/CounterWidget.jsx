@@ -10,7 +10,7 @@ export function CounterWidget ({
             <p>{counter}</p>
             <button onClick={onIncrementBtnClick}>+1</button>
             <button onClick={onDecrementBtnClick}>-1</button>
-            <button onClick={onClearBtnClick}>Очистить</button>
+            <button onClick={onClearBtnClick}>Clear</button>
           </div>
         </>
       )
